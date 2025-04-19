@@ -1,0 +1,9 @@
+name: cat_facts_app
+description: A console application for displaying random cat facts in different languages
+version: 1.0.0
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  http: ^0.13.5
