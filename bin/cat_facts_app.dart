@@ -9,6 +9,7 @@ void main() async {
   await app.start();
 }
 
+
 class CatFactsApp {
   final List<Map<String, dynamic>> favoriteFacts = [];
   final String favoritesFilePath = 'favorites.json';
@@ -226,7 +227,7 @@ class CatFactsApp {
     print('\nOptions:');
     print('1. Add to favorites and show next fact');
     print('2. Show next fact');
-    print('3. Show my favorite facts');
+    print('3. Show favorite facts');
     print('4. Return to main menu');
     print('Enter your choice (1-4): ');
     
